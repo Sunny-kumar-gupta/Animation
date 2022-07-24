@@ -1,0 +1,40 @@
+@keyframes changecolor{
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: blue;
+    }
+}
+.animate{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    animation-name: changecolor;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+@keyframes changecolor2{
+    0%{border-radius: 10%;}
+    10%{border-radius: 20%;}
+    30%{border-radius: 40%;}
+    40%{border-radius: 50%;}
+    50%{border-radius: 40%;}
+    60%{border-radius: 30%;}
+    70%{border-radius: 20%;}
+    80%{border-radius: 10%;}
+    90%{border-radius: 0%;}
+    100%{background-color: blue;}
+    
+}
+.animate2{
+    animation-name: changecolor2;
+    margin-top: 100px;
+    margin-left: 200px;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+}
+
